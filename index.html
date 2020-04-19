@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profit - Prace ziemne</title>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Raleway:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.bundle.css">
+
+    <script type="text/javascript" src="./style/jquery.scrollTo.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="sticky">
+        <nav>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo3.png" alt="Logo profit">
+            </a>
+
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a id="homes" href="#">Home</a></li>
+                <li><a id="abouts" href="#">O nas</a></li>
+                <li><a id="services" href="#">Nasze usługi</a></li>
+                <li><a id="projects" href="#">Nasze projekty</a></li>
+                <li><a id="contacts" href="#">Kontakt</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <!-- End of the Nav -->
+
+
+    <!-- Begin page content -->
+    <main>
+        <section id="home" class="section_one">
+            <div class="profit">
+                <h1 class="logo">profit</h1>
+                <div class="slogan">
+                    Budowanie na solidnym gruncie
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section_two">
+            <div class="section_two_cont">
+                <h2 class="big_label"><span class="before">O nas</span></h2>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elellmentum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta imperdiet, quam lectus faucibus nunc, at sodales justo turpis mollis
+                    augue. Sed aliquam, erat sit amet consectetur aliquam, velit sem viverra sapien, in luctus magna orci ut ipsum. Integer sed risus sed justo commodo iaculis nec a leo. Sed et dapibus. Skorzystaj z naszego 20 letniego doświadcznia.
+                </p>
+            </div>
+            <div class="image">
+            </div>
+        </section>
+
+        <section id="service" class="section_three">
+            <div class="image">
+            </div>
+            <div class="section_three_cont">
+                <h2 class="big_label"><span class="before">Świadczone usługi</span></h2>
+                <ul class="services">
+                    <li>
+                        <div class="serv_title"><b> Prace ziemne</b></div>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi
+                            ut porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="serv_title"><b>Wynajem sprzętu</b></h3>
+                        </div>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi
+                            ut porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="serv_title"><b>Prace ziemne</b></div>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi
+                            ut porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="project" class="section_four">
+            <div class="wrapper">
+                <h2> <span class="big_label"> Nasze projekty</span></h2>
+            </div>
+            <div class="section_four_cont">
+                <div class="proj1 proj">
+                    <div class="image">
+                        <img class="image_proj" src="./images/proj1_mini.png" alt="Zdjęcie projektu 1.">
+                    </div>
+                    <div class="wrapper_proj">
+                        <div class="one">
+                            <div class="title"><b id="title">Projekt 1</b></div>
+                            <div id="teext" class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta.
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button onclick="popup(this)">Więcej</button>
+                            <div class="proj2_popup proj_popup">
+                                <h2 class="proj_title">Projekt 1</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj2 proj">
+                    <div class="image">
+                        <img class="image_proj" src="./images/proj2_mini.png" alt="Zdjęcie projektu 2.">
+                    </div>
+                    <div class="wrapper_proj">
+                        <div class="one">
+                            <div class="title"><b>Projekt 2</b></div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta.
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button onclick="popup(this)">Więcej</button>
+                            <div class="proj2_popup proj_popup">
+                                <h2 class="proj_title">Projekt 2</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj3 proj">
+                    <div class="image">
+                        <img class="image_proj" src="./images/proj3_mini.png" alt="Zdjęcie projektu 2.">
+                    </div>
+                    <div class="wrapper_proj">
+                        <div class="one">
+                            <div class="title"><b>Projekt 3</b></div>
+                            <div class="text">
+                                3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum dictum ipsum eget sagittis. Quisque nec erat laoreet elit egestas tempus. Donec porttitor, nisi ut porta.
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button onclick="popup(this)">Więcej</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal01" class="modal">
+                <div class="modal_content">
+                    <span class="close" id="close" onclick="close_popup()">&times;&nbsp;&nbsp;</span>
+                    <div class="modal_image">
+                        <img id="modal_img" src="" alt="">
+                    </div>
+                    <h2 id="modal_title"></h2>
+                    <div id="modal_desc">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="contact">
+            <div class="title"> Kontakt</div>
+        </div>
+        <div class="container">
+            <div>
+                <a href="mailto:pphu.profit@wp.pl">pphu.profit@wp.pl</a>
+                <br>
+                <a href="tel:+48665444476">+48 665 444 476</a>
+            </div>
+            <div>
+                <span> Sulęcin 69-200</span>
+                <br>
+                <span> NIP: 5961251504</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.bundle.js"></script>
+</body>
+
+</html>
